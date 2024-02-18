@@ -21,6 +21,7 @@ const Schedule = () => {
                 locale="en-US"
                 formatShortWeekday={customWeekdayFormat}
             />
+            <hr style={{ border: "5px solid #F2F8F8", borderRadius: "5px", margin: "5px 25px" }} />
             <div className="weeks">
                 <div className="weeks-week">
                     <div className="weeks-week-info">
