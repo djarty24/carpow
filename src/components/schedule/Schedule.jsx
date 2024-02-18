@@ -4,7 +4,9 @@ import './Schedule.css'
 
 const Schedule = () => {
   return (
-    <div>Schedule</div>
+    <div>
+		
+	</div>
   )
 }
 
