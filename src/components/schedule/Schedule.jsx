@@ -66,18 +66,8 @@ const Schedule = () => {
           date === selectedDate ? "selected" : null
         }
         onClickDay={handleDateChange}
-        nextButtonProps={{
-          onClick: () =>
-            handleDateChange(
-              new Date(date.getFullYear, date.getMonth + 1, date.getDay)
-            ),
-        }}
-        prevButtonProps={{
-          onClick: () =>
-            handleDateChange(
-              new Date(date.getFullYear, date.getMonth + 1, date.getDay)
-            ),
-        }}
+        next2Label={null} // To hide the next 2 months button'
+        prev2Label={null}
       />
 
       <CustomPopup selectedDate={selectedDate} onClose={handleClosePopup} />
@@ -126,17 +116,15 @@ const Schedule = () => {
             <p>Open Slots</p>
           </div>
         </div>
-        {numWeeks >= 5 && (
-          <div className="weeks-week">
-            <div className="weeks-week-info">
-              <div>
-                <h4>Week 5</h4>
-                <h6>1/29/24 - 2/2/24</h6>
-              </div>
-              <p>Open Slots</p>
+        <div className="weeks-week">
+          <div className="weeks-week-info">
+            <div>
+              <h4>Week 5</h4>
+              <h6>1/29/24 - 2/2/24</h6>
             </div>
+            <p>Open Slots</p>
           </div>
-        )}
+        </div>
         {numWeeks >= 6 && (
           <div className="weeks-week">
             <div className="weeks-week-info">
@@ -149,6 +137,9 @@ const Schedule = () => {
           </div>
         )}
       </div>
+      <Link to="/Groups">
+        <button>Back</button>
+      </Link>
     </div>
   );
 };

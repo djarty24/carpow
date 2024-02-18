@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import "./Book.css";
 import { useState } from "react";
 
@@ -34,7 +34,9 @@ const Book = () => {
       >
         Book Now!
       </button>
-      <button class="back">Back</button>
+      <Link to="/schedule">
+        <button class="back">Back</button>
+      </Link>
     </div>
   );
 };
