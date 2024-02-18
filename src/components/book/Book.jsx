@@ -34,7 +34,7 @@ const Book = () => {
       >
         Book Now!
       </button>
-      <Link to="/schedule">
+      <Link to="/schedule/Homestead-Kids">
         <button class="back">Back</button>
       </Link>
     </div>
