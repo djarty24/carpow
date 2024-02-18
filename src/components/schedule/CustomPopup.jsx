@@ -9,9 +9,11 @@ const CustomPopup = ({ selectedDate, onClose }) => {
             closeOnDocumentClick
             onClose={onClose}
         >
-            <div>
-                <p>{selectedDate && selectedDate.toDateString()}</p>
-                <button onClick={onClose}>Close Popup</button>
+            <div style={{padding:"5px 10px"}}>
+                <h3 style={{fontWeight:"500", textAlign:"center"}}>{selectedDate && selectedDate.toDateString()}</h3>
+                <p>Pickup: </p>
+                <p>Dropoff: </p>
+                <div style={{margin:"10px", padding:"5px 0px", borderRadius:"8px"}} className="btn btn-primary" onClick={onClose}>Close</div>
             </div>
         </Popup>
     );
