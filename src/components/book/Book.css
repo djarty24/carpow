@@ -1,4 +1,14 @@
+.book{
+    text-align: center;
+}
+
 button{
     background-color: #49BEB6;
     color: white;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+h1{
+    
 }
