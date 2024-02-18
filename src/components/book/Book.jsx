@@ -8,11 +8,21 @@ const Book = () => {
       <h1>Sign Up For A Slot</h1>
       <div class="dropdown">
         <button class="dropbtn">Dropdown</button>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
+        <a href="#">Work &dtrif;</a>
+        <ul>
+          <li>
+            <a href="#">Web Development</a>
+          </li>
+          <li>
+            <a href="#">Web Design</a>
+          </li>
+          <li>
+            <a href="#">Illustration</a>
+          </li>
+          <li>
+            <a href="#">Iconography</a>
+          </li>
+        </ul>
       </div>
       <button>Book Now!</button>
     </div>
