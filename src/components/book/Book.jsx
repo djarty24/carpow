@@ -1,29 +1,39 @@
 import React from "react";
 import "./Book.css";
+import { useState } from "react";
 
 const Book = () => {
+  const [selectedOption, setSelectedOption] = useState("");
+  const handleSelectChange = (event) => {
+    setSelectedOption(event.target.value);
+  };
+
   return (
     <div className="book">
       <h1>Sign Up For A Slot</h1>
+      <h3>Time:</h3>
       <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
-        <a href="#">Work &dtrif;</a>
-        <ul>
-          <li>
-            <a href="#">Web Development</a>
-          </li>
-          <li>
-            <a href="#">Web Design</a>
-          </li>
-          <li>
-            <a href="#">Illustration</a>
-          </li>
-          <li>
-            <a href="#">Iconography</a>
-          </li>
-        </ul>
+        <select value={selectedOption} onChange={handleSelectChange}>
+          <option>Select an Option...</option>
+          <option value="pickUp">Pick Up</option>
+          <option value="dropOff">Drop Off</option>
+        </select>
       </div>
-      <button>Book Now!</button>
+      <h3>Information:</h3>
+      <ul>
+        <li>Driver: {selectedOption == "pickUp" ? "Ms.Clark" : "Mr.Smith"}</li>
+        <li>Car: {selectedOption == "pickUp" ? "Honda" : "Toyota"}</li>
+        <li>Time: {selectedOption == "pickUp" ? "8:15 am" : "3:50 pm"}</li>
+      </ul>
+      <img src="bookpage.png"></img>
+      <button
+        onClick={() => {
+          alert("Slot booked successfully!");
+        }}
+      >
+        Book Now!
+      </button>
+      <button class="back">Back</button>
     </div>
   );
 };
