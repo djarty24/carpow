@@ -14,20 +14,24 @@ const Groups = () => {
 			</div>
 			<hr style={{border:"5px solid #F2F8F8", borderRadius:"5px", marginBottom:"40px"}} />
 			<div className="groups-groups">
-				<div className="groups-group">
-					<img src="group1.png" alt="" />
-					<div className="groups-group-info">
-						<h4>Homestead Kids</h4>
-						<p>Steve Jobs, Linus Torvalds, Richard Feynman, Stephen Hawking</p>
-					</div>
-				</div>
-				<div className="groups-group">
-					<img src="group2.png" alt="" />
-					<div className="groups-group-info">
-						<h4>SMS Carpool</h4>
-						<p>Dennis Ritchie, Monty Python, Steve Wozniack, Joe Biden</p>
-					</div>
-				</div>
+                <Link to={"/schedule/Homestead-Kids"} style={{textDecoration:"none", color:"black"}}>
+    				<div className="groups-group">
+    					<img src="group1.png" alt="" />
+    					<div className="groups-group-info">
+    						<h4>Homestead Kids</h4>
+    						<p>Steve Jobs, Linus Torvalds, Richard Feynman, Stephen Hawking</p>
+    					</div>
+    				</div>
+                </Link>
+                <Link to={"/schedule/SMS-Carpool"} style={{textDecoration:"none", color:"black"}}>
+    				<div className="groups-group">
+    					<img src="group2.png" alt="" />
+    					<div className="groups-group-info">
+    						<h4>SMS Carpool</h4>
+    						<p>Dennis Ritchie, Monty Python, Steve Wozniack, Joe Biden</p>
+    					</div>
+    				</div>
+                </Link>
 			</div>
 		</div>
 	)

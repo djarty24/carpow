@@ -13,7 +13,7 @@ const Intro = () => {
 				<div className="btn btn-secondary">SSO</div>
 				<Link to={"/login"} style={{textDecoration:"none"}}><div className="btn btn-primary">Log In</div></Link>	
 			</div>
-			<p style={{color:"white", fontSize:"small", textAlign:"center"}}>Don't have an account? <span style={{fontWeight:"600"}}>Sign Up</span></p>
+			<p style={{color:"white", fontSize:"small", textAlign:"center"}}>Don't have an account? <Link to={"/signup"} style={{fontWeight:"600"}}>Sign Up</Link></p>
 		</div>
 	</div>
   )
