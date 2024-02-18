@@ -96,7 +96,7 @@ const Schedule = () => {
               <h4>Week 1</h4>
               <h6>1/29/24 - 2/2/24</h6>
             </div>
-            <p>Slots Remaining</p>
+            <p>Open Slots</p>
           </div>
         </div>
         <div className="weeks-week">
@@ -123,7 +123,7 @@ const Schedule = () => {
               <h4>Week 4</h4>
               <h6>1/29/24 - 2/2/24</h6>
             </div>
-            <p>Slots Remaining</p>
+            <p>Open Slots</p>
           </div>
         </div>
         {numWeeks >= 5 && (
@@ -133,7 +133,7 @@ const Schedule = () => {
                 <h4>Week 5</h4>
                 <h6>1/29/24 - 2/2/24</h6>
               </div>
-              <p>Slots Remaining</p>
+              <p>Open Slots</p>
             </div>
           </div>
         )}
@@ -144,7 +144,7 @@ const Schedule = () => {
                 <h4>Week 6</h4>
                 <h6>1/29/24 - 2/2/24</h6>
               </div>
-              <p>Slots Remaining</p>
+              <p>Full</p>
             </div>
           </div>
         )}
