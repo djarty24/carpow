@@ -1,7 +1,15 @@
 .intro {
-	background-color: #075F63;
-	width: 100vw;
-	height: 100vh;
+    background-color: #075F63;
+
+    @media only screen and (max-width: 768px) {
+        width: 100vw;
+        height: 100vh;    
+    }
+    @media only screen and (min-width: 768px) {
+        width: 100vw;
+        height: 100vh;
+    }
+
 }
 
 .header-img {
@@ -12,11 +20,19 @@
 	color: white;
 	font-weight: 300;
 	font-size: large;
+    @media only screen and (min-width: 768px) {
+        font-size: 40px;
+        padding-left: 30px;
+    }
 }
 
 .intro h1 {
 	color: white;
 	font-size: xxx-large;
+    @media only screen and (min-width: 768px) {
+        font-size: 60px;
+        padding-left: 30px;
+    }
 }
 
 .intro-info {
