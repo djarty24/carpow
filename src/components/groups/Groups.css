@@ -1,0 +1,51 @@
+.groups h2 {
+	font-weight: 400;
+	font-size: large;
+}
+
+.groups h1 {
+	font-weight: 600;
+	font-size: xxx-large;
+}
+
+.groups-title {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-left: 35px;
+	margin-right: 25px;
+}
+
+.groups-title-left {
+	line-height: 0.75rem;
+}
+
+.groups-title-right {
+	height: 105px;
+}
+
+.groups-groups {
+	margin: 20px 35px;
+}
+
+.groups-group {
+	gap: 15px;
+	justify-content: space-between;
+	padding: 15px;
+	margin: 20px 0px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 40px #F0F0F0, -5px -5px 40px #F0F0F0;
+	display: flex;
+}
+
+.groups-group img {
+	width: 35%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.groups-group-info {
+	line-height: 0.75rem;
+	h4 {font-weight: 500;}
+	p {font-size: x-small;}
+}
