@@ -11,10 +11,16 @@ body {
 .btn {
     border-radius: 10px;
     text-align: center;
-    padding: 12px 20px;
+    padding: 13px 20px;
+    margin: 15px 0px;
 }
 
 .btn-primary {
     background-color: #49BEB6;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #216F73;
     color: white;
 }
