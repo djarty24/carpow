@@ -20,19 +20,13 @@
 	color: white;
 	font-weight: 300;
 	font-size: large;
-    @media only screen and (min-width: 768px) {
-        font-size: 40px;
-        padding-left: 30px;
-    }
+    text-align: left;
 }
 
 .intro h1 {
 	color: white;
 	font-size: xxx-large;
-    @media only screen and (min-width: 768px) {
-        font-size: 60px;
-        padding-left: 30px;
-    }
+    text-align: left;
 }
 
 .intro-info {
