@@ -23,7 +23,6 @@ const Book = () => {
       <h3>Information:</h3>
       <ul>
         <li>Driver: {selectedOption == "pickUp" ? "Ms.Clark" : "Mr.Smith"}</li>
-        <li>Car: {selectedOption == "pickUp" ? "Honda" : "Toyota"}</li>
         <li>Time: {selectedOption == "pickUp" ? "8:15 am" : "3:50 pm"}</li>
       </ul>
       <img src="bookpage.png"></img>
