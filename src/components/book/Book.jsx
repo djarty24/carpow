@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import "./Book.css";
 
 const Book = () => {
@@ -6,37 +6,16 @@ const Book = () => {
     <div className="book">
       <h1>Sign Up For A Slot</h1>
       <div class="dropdown">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Dropdown button
-        </button>
-        <ul class="dropdown-menu">
-          <li>
-            <a class="dropdown-item" href="#">
-              Action
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">
-              Another action
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">
-              Something else here
-            </a>
-          </li>
-        </ul>
-      </div>
-      <button type="button" class="btn btn-outline-primary">
-        Book Now!
-      </button>
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+      <button type="button" class="btn btn-outline-primary">Book Now!</button>
     </div>
-  );
-};
+  )
+}
 
-export default Book;
+export default Book
