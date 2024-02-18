@@ -10,7 +10,7 @@ const CustomPopup = ({ selectedDate, onClose }) => {
             onClose={onClose}
         >
             <div>
-                <p>Popup content for {selectedDate && selectedDate.toDateString()}</p>
+                <p>{selectedDate && selectedDate.toDateString()}</p>
                 <button onClick={onClose}>Close Popup</button>
             </div>
         </Popup>
