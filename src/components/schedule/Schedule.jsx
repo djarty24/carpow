@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Calendar from "react-calendar";
 import { Link, useParams } from "react-router-dom";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
+import CustomPopup from "./CustomPopup";
 
 import "./Schedule.css";
 
