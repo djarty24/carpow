@@ -1,27 +1,27 @@
-.login-header {
+.signup-header {
 	margin: 80px 10px;
 	line-height: 1rem;
 	text-align: center;
 }
 
-.login h2 {
+.signup h2 {
 	font-weight: 500;
 	font-size: large;
 }
 
-.login h1 {
+.signup h1 {
 	font-weight: 600;
 	font-size: xxx-large;
 }
 
-.login-form {
+.signup-form {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	margin: 35px;
 }
 
-.login-form-item {
+.signup-form-item {
 	border-radius: 5px;
 	border: 1px solid #075F63;
 	height: 30px;
@@ -29,7 +29,7 @@
 	margin: 8px 0px;
 }
 
-.login img {
+.signup img {
 	display: flex;
 	width: 100%;
 }
