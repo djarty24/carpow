@@ -1,16 +1,11 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import "./Schedule.css";
-import Calendar from "react-calendar";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './Schedule.css'
 
 const Schedule = () => {
   return (
-    <div>
-      <h1>Schedule</h1>
-      <Calendar />
-      <div class="weekOne"></div>
-    </div>
-  );
-};
+    <div>Schedule</div>
+  )
+}
 
-export default Schedule;
+export default Schedule
