@@ -8,10 +8,9 @@ import CustomPopup from "./CustomPopup";
 import "./Schedule.css";
 
 const Schedule = () => {
-  const [selectedDate, setSelectedDate] = useState(new Date());
+  const [selectedDate, setSelectedDate] = useState(null);
   const [numWeeks, setNumWeeks] = useState(null);
 
-  const date = new Date(2024, 2, 15);
   const { id } = useParams();
   let schedule = id.replace("-", " ");
 
