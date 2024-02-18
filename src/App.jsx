@@ -1,13 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import './App.css'
+import Intro from './components/intro/Intro'
+import Groups from './components/groups/Groups'
+import Schedule from './components/schedule/Schedule'
+import Book from './components/book/Book'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    
+    <BrowserRouter>
+		<Routes>
+			<Route path='/' element={<Intro />}></Route>
+			<Route path='/groups' element={<Groups />}></Route>
+			<Route path='/schedule' element={<Schedule />}></Route>
+			<Route path='/book' element={<Book />}></Route>
+		</Routes>
+	</BrowserRouter>
     </>
   )
 }
