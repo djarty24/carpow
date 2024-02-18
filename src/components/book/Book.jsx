@@ -3,7 +3,10 @@ import './Book.css'
 
 const Book = () => {
   return (
-    <div>Book</div>
+    <>
+      <h1>Sign Up For A Slot</h1>
+      <button type="button" className="btn">Secondary</button>
+    </>
   )
 }
 
