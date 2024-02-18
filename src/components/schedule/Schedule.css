@@ -78,7 +78,7 @@
 	color: black;
 }
 
-.react-calendar__tile:hover {
+.react-calendar__tile:hover, .react-calendar__tile--active {
 	border-radius: 20px;
 }
 
