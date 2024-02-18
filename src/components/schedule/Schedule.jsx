@@ -1,14 +1,16 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
+
 import './Schedule.css'
 
 const Schedule = () => {
 	
 	const { id } = useParams();
+	let schedule = id.replace("-"," ");
 
 	return (
-		<div>
-			<p>Schedule - { id }</p>
+		<div className='schedule'>
+			<h1>{ schedule }<br/>Carpool Schedule</h1>
 		</div>
 	)
 }

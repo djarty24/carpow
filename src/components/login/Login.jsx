@@ -11,9 +11,9 @@ const Login = () => {
             </div>
             <div className="login-form">
                 <input className="login-form-item" type="text" placeholder='Email or username' />
-                <input className="login-form-item" type="text" placeholder='Password' style={{ marginBottom: "40px" }} />
+                <input className="login-form-item" type="password" placeholder='Password' style={{ marginBottom: "40px" }} />
                 <Link to={"/groups"} style={{ textDecoration: "none" }}><div className="btn btn-primary">Log In</div></Link>
-                <p style={{ color: "black", fontSize: "small", textAlign: "center" }}>Don't have an account? <span style={{ fontWeight: "600" }}>Sign Up</span></p>
+                <p style={{fontSize: "small", textAlign: "center" }}>Don't have an account? <Link to={"/signup"} style={{fontWeight:"600", textDecoration:"none", color:"black"}}>Sign Up</Link></p>
             </div>
             <img src="login-art.png" alt="" />
         </div>

@@ -24,11 +24,11 @@ const Groups = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to={"/schedule/SMS-carpool"} style={{ textDecoration: "none", color: "black" }}>
+                    <Link to={"/schedule/SMS-Group"} style={{ textDecoration: "none", color: "black" }}>
                         <div className="groups-group">
                             <img src="group2.png" alt="" />
                             <div className="groups-group-info">
-                                <h4>SMS Carpool</h4>
+                                <h4>SMS Group</h4>
                                 <p>Dennis Ritchie, Monty Python, Steve Wozniack, Joe Biden</p>
                             </div>
                         </div>
