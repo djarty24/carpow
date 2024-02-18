@@ -5,7 +5,58 @@
 
 .schedule h1 {
 	font-size: xx-large;
-    font-weight: 600;
-    text-align: center;
-    padding: 20px 20px;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+.react-calendar {
+	box-shadow: none;
+	border-radius: 0px;
+	box-shadow: none;
+	text-align: center;
+	padding: 0;
+	margin: 30px;
+}
+
+.react-calendar__navigation {
+	display: flex;
+	justify-content: center;
+	/* Center content horizontally */
+	align-items: center;
+	/* Center content vertically */
+}
+
+.react-calendar__navigation__label {
+	padding: 8px 20px;
+	margin: 5px;
+	width: fit-content;
+	font-size: small;
+	border-radius: 8px;
+	box-shadow: none;
+}
+
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__prev-button,
+.react-calendar__navigation__next-button,
+.react-calendar__navigation__next2-button {
+	grid-row: 2;
+	border-radius: 5px;
+	box-shadow: none;
+	text-align: center;
+	padding: 2px 10px;
+	margin: 20px 5px;
+	width: 15vw;
+}
+
+.react-calendar__tile {
+	border-radius: 0px;
+	box-shadow: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+	text-decoration: none;
 }
