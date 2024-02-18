@@ -1,0 +1,25 @@
+.intro {
+	background-color: #075F63;
+	width: 100vw;
+	height: 100vh;
+}
+
+.header-img {
+	width: 100%;
+}
+
+.intro h2 {
+	color: white;
+	font-weight: 300;
+	font-size: large;
+}
+
+.intro h1 {
+	color: white;
+	font-size: xxx-large;
+}
+
+.intro-info {
+	margin: 20px;
+	line-height: 1.5rem;
+}

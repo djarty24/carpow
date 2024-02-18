@@ -7,3 +7,14 @@ body {
 	padding: 0;
 	border: 0;
 }
+
+.btn {
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 20px;
+}
+
+.btn-primary {
+    background-color: #49BEB6;
+    color: white;
+}
